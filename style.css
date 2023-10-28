@@ -6,6 +6,7 @@
 }
 body{
     background-color: black;
+<<<<<<< HEAD
 }
 .header{
     width: 100%;
@@ -83,9 +84,37 @@ ul {
    height: 30px;
    width: 550px;
    border-radius: 4px;
+=======
+    background-image: url(https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+background-repeat: repeat;
+}
+ 
+.logo{
+    width:75px ;
+>>>>>>> d4670c10556a2dab85fe70c725496829d9e162f9
 }
 /* page 2*/
 .blog{
 
+<<<<<<< HEAD
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/img.jpg); 
+=======
+/* nav li{
+    margin:10px 0 ;
+    align-content: flex-start;
+} */
+ 
+div nav{
+    display: flex;
+    color: aliceblue;
+    
+}
+
+div nav ul{
+    display: flex;
+    list-style: none;
+    
+
+>>>>>>> d4670c10556a2dab85fe70c725496829d9e162f9
 }
