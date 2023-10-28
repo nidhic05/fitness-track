@@ -8,27 +8,32 @@ body{
     background-color: black;
 }
 .header{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/background\ img.jpeg);
-   
-   
-}
-ul {
-    list-style-type: none;
-    margin: 10px 0;
-    padding: 0;
+  
+  height: 100vh;
+  width: 100%;
+    background-image: url(https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     
-    
+  } 
+nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 30px;
+     
+  }
+  nav h1{
+    font-size: 40px;
+
   }
 
   li {
     float: left;
+    list-style: none;
   }
 
   li a, .logo a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 20px 36px;
     text-decoration: none;
@@ -42,50 +47,36 @@ ul {
 
 .button{
     margin: 20px;
-}
-.header-content{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 50px;
-   
-}
-.email-signup{
-    background: #fff;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    
-}
-.search{
-    flex: 1;
-    border: 0;
-    outline: 0;
-    margin-left: 20px;
-    display: flex;
-}
-.search-icon{
-    color: white;
-    background-color: rgb(255, 140, 0);
-    width: 50px;
-    height: 35px;
-   
-    justify-content: center;
-    align-items: center;
-   border-bottom-right-radius: 4px;
-   border-top-right-radius: 4px;
+    width: 80px;
+    background-color: transparent;
+    border-color: rgba(37, 103, 254, 0.37);
+    cursor: pointer;
 
 }
-.search-input{
-   height: 30px;
-   width: 550px;
-   border-radius: 4px;
+.text{
+  margin: 9%;
 }
-/* page 2*/
-.blog{
-
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/img.jpg); 
+.text p{
+  font-size: 20px;
+}
+.text button{
+  font-size: 35px;
+  margin: 2%;
+  height: 50px;
+  background-color:transparent;
+  border-color: rgba(37, 103, 254, 0.37);
+  cursor: pointer;
+ box-shadow:black;
+}
+/*blog page*/
+.text h1{
+  color: white;
+  text-align: center;
+}
+.blog-img{
+  width: 50%;
+  position:absolute;
+  align-items: center;
+  
+  margin-left: 350px;
 }
