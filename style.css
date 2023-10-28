@@ -8,29 +8,79 @@ body{
     background-color: black;
 }
 .header{
-    
-    
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/background\ img.jpeg);
    
-    background-size: cover;
-    background-position: center;
-    padding: 10px 8%;
-    position: relative;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    
+    
+  }
+
+  li {
+    float: left;
+  }
+
+  li a, .logo a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 36px;
+    text-decoration: none;
+  }
+  
+
+  .logo {
+    float: left;
+   
+  }
+
+.button{
+    margin: 20px;
+}
+.header-content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
     display: flex;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.search{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    display: flex;
+}
+.search-icon{
+    color: white;
+    background-color: rgb(255, 140, 0);
+    width: 50px;
+    height: 35px;
+   
+    justify-content: center;
+    align-items: center;
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
 
 }
-.logo{
-    width:75px ;
-}
-
-
-
-nav li{
-    margin:10px 0 ;
-    align-content: flex-start;
-}
-button{
-    background-color: rgb(244, 74, 74);
+.search-input{
+   height: 30px;
+   width: 550px;
+   border-radius: 4px;
 }

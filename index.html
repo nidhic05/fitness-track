@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,16 +12,29 @@
 </head>
 <body>
     <div class="header">
-        <nav>
-            <img src="/IMG/logo img.png" class="logo">
-            <div>
-                <li>homepage</li>
-                <li>blog</li>
-                <li>homepage</li>
-                <li>homepage</li>
-                <li>homepage</li>
-                <button>sign in</button>
-            </div>
-        </nav>
+    <div>
+        <div class="logo">
+          <a href="#home"><img src="/IMG/logo img.png" alt="Logo" style="height:50px;"></a>
+        </div>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">blog</a></li>
+          <li><a href="#contact">video lab</a></li>
+          <li><a href="#about">Diet</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#about">Contact us</a></li>
+          <button class="button">sign in</button>
+        </ul>
+                </div>
+                <div class="header-content">
+                    
+                    <form class="search">
+                        <input placeholder="search here" class="search-input">
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </form>
+                </div>
+           
 </body>
 </html>
