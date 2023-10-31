@@ -143,6 +143,10 @@ li a:hover {
   width: 100%;
 }
 /*contact page*/
-
-
- 
+.contact-oage{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/pexels-photo-260352.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
